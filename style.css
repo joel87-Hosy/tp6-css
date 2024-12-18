@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+  color: #fcfcfc;  
+  background-color: #118b50;
+  padding: 10px 10px 10px;
+  position: sticky;
+  top:0;
+}
+.notes .note {
+    background-color: #e3f0af;
+    color: #1c1c1c;
+    margin: 10px auto;
+    padding: 25px;
+    width:500px ;
+    border-radius: 8px;
+
+}
+.notes {
+    text-align: center;
+
+}
+.note {
+    display: inline-block;
+    text-align: left ;
+}
+.ajouterNote {
+     background-color: #118b50;
+     padding: 10px;
+     border-radius: 10px;
+     border: 0;
+     color: #fcfcfc;
+     position: fixed;
+     right: 15px;
+     bottom: 10px;
+     cursor: pointer;
+
+}
+.ajouterNote:hover {
+    opacity: 0.8;
+}
